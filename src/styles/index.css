@@ -17,9 +17,9 @@ code {
 }
 
 .border-zone {
-  @apply border-solid border-black rounded-xl;
+  @apply border-solid border-black;
 }
 
 .button-digits {
-  @apply border-2 border-zone w-1/4 h-1/5;
+  @apply border-2 border-zone rounded-2xl;
 }
