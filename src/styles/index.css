@@ -21,5 +21,6 @@ code {
 }
 
 .button-digits {
-  @apply border-2 border-zone rounded-2xl;
+  @apply bg-[#EBCC71] text-3xl col-span-1 grid place-items-center text-white rounded-[30px] w-[86px] border-2 border-black h-[53px];
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }

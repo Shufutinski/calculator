@@ -1,27 +1,38 @@
 const App = () => {
   return (
     <>
-      <div className="inline-flex flex-wrap justify-center content-center w-screen h-screen">
-        <div className="bg-white inline-flex flex-wrap content-end w-1/3 h-2/3 border-2 border-zone rounded-3xl shadow-2xl">
-          <div className="inline-flex flex-wrap justify-around content-around w-2/3 h-2/3 border-t border-zone">
-            <div className="button-digits w-1/4 h-1/5 m-1">1</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">2</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">3</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">4</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">5</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">6</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">7</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">8</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">9</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">000</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">0</div>
-            <div className="button-digits w-1/4 h-1/5 m-1">.</div>
+      <div className="grid place-items-center h-screen">
+        <div className="relative px-10 py-8 bg-[#00746D] max-w-[540px] w-full min-h-[540px] border-2 rounded-3xl shadow-2xl overflow-hidden">
+          <div className="flex flex-col justify-between h-[120px] items-end text-white font-bold">
+            <div className="text-4xl">1234*34+555</div>
+            <div className="text-3xl font-medium text-[#A8A8A8]">= 42,511</div>
           </div>
-          <div className="inline-flex flex-col justify-around content-center items-center w-1/3 h-2/3 border-t border-zone ">
-            <div className="button-digits w-2/5 h-1/5">*</div>
-            <div className="button-digits w-2/5 h-1/5">/</div>
-            <div className="button-digits w-2/5 h-1/5">-</div>
-            <div className="button-digits w-2/5 h-1/5">+</div>
+          <div className="absolute overflow-hidden py-4 pl-12 bg-[#D9D9D9] bottom-6 inset-x-0 rounded-[40px] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] w-[94%] mx-auto h-[351px] border-2 border-black flex justify-between">
+            
+            <div className="grid grid-cols-3 gap-2 w-[70%]">
+              <div className="button-digits mb-4">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+              <div className="button-digits">1</div>
+            </div>
+            <div className="absolute right-0 top-0 min-h-full py-4 rounded-[40px] grid grid-cols-1 px-6 gap-2 bg-[rgba(28,129,158,0.3)]">
+              <div className="mb-4 button-digits w-[86px]">1</div>
+              <div className="button-digits w-[86px]">1</div>
+              <div className="button-digits w-[86px]">1</div>
+              <div className="button-digits w-[86px]">1</div>
+              <div className="button-digits w-[86px]">1</div>
+            </div>
           </div>
         </div>
       </div>
